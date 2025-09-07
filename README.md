@@ -1,2 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cưới hỏi Phúc Nguyên</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Animation */
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+
+<body class="font-sans text-gray-800">
+
+  <!-- Banner -->
+  <header class="relative bg-cover bg-center h-screen flex items-center justify-center text-center text-white" style="background-image: url('https://images.unsplash.com/photo-1529634895721-9f3e3fbe9c9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');">
+    <div class="bg-black bg-opacity-50 absolute inset-0"></div>
+    <div class="relative z-10 fade-in">
+      <h1 class="text-5xl md:text-6xl font-bold">Cưới hỏi Phúc Nguyên</h1>
+      <p class="mt-4 text-lg md:text-2xl">Đồng hành cùng bạn trong ngày trọng đại</p>
+      <a href="#contact" class="mt-6 inline-block bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-xl text-lg font-semibold transition">Đặt dịch vụ ngay</a>
+    </div>
+  </header>
+  <!-- Slider Ảnh Cưới -->
+<section class="py-16 bg-gray-50">
+  <h2 class="text-3xl font-bold text-center text-pink-600 mb-10">Khoảnh khắc đẹp</h2>
+  <!-- Swiper -->
+  <div class="swiper mySwiper max-w-5xl mx-auto rounded-2xl shadow-lg">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1600&q=80" alt="Ảnh cưới 1" class="w-full h-[500px] object-cover rounded-2xl">
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="Ảnh cưới 2" class="w-full h-[500px] object-cover rounded-2xl">
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=1600&q=80" alt="Ảnh cưới 3" class="w-full h-[500px] object-cover rounded-2xl">
+      </div>
+    </div>
+    <!-- Nút điều khiển -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+  <!-- Giới thiệu -->
+  <section class="py-16 px-6 max-w-5xl mx-auto text-center fade-in">
+    <h2 class="text-3xl font-bold text-pink-600">Về chúng tôi</h2>
+    <p class="mt-6 text-lg leading-relaxed">
+      Phúc Nguyên tự hào là đơn vị tổ chức cưới hỏi uy tín, mang đến những khoảnh khắc hạnh phúc trọn vẹn. 
+      Với nhiều năm kinh nghiệm, chúng tôi cam kết đem lại sự hoàn hảo trong từng chi tiết, để ngày cưới của bạn trở nên đáng nhớ nhất.
+    </p>
+  </section>
+
+  <!-- Dịch vụ -->
+  <section class="py-16 bg-gray-50 fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-600">Dịch vụ nổi bật</h2>
+    <div class="mt-10 grid gap-8 md:grid-cols-3 px-6 max-w-6xl mx-auto">
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-4">🌸 Trang trí tiệc cưới</h3>
+        <p>Không gian sang trọng, phong cách hiện đại hoặc truyền thống tùy chọn.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-4">📷 Chụp ảnh & Quay phim</h3>
+        <p>Lưu giữ trọn vẹn từng khoảnh khắc đẹp nhất trong ngày cưới.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-4">💍 Dịch vụ trọn gói</h3>
+        <p>Từ A đến Z: lễ gia tiên, tiệc cưới, makeup, MC, âm thanh ánh sáng.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Đánh giá -->
+  <section class="py-16 px-6 max-w-5xl mx-auto text-center fade-in">
+    <h2 class="text-3xl font-bold text-pink-600">Khách hàng nói gì?</h2>
+    <div class="mt-10 grid gap-8 md:grid-cols-2">
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <p>"Dịch vụ cực kỳ chuyên nghiệp, không gian tiệc cưới lãng mạn, ai cũng khen ngợi!"</p>
+        <span class="block mt-4 font-semibold">— Anh Tuấn & Chị Lan</span>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <p>"Từ khâu chuẩn bị đến tổ chức đều rất chu đáo, vợ chồng mình vô cùng hài lòng."</p>
+        <span class="block mt-4 font-semibold">— Minh & Hương</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Liên hệ -->
+  <section id="contact" class="py-16 bg-pink-600 text-white text-center fade-in">
+    <h2 class="text-3xl font-bold">Liên hệ với chúng tôi</h2>
+    <p class="mt-6">📞 Hotline: <span class="font-semibold">0346 917 777</span></p>
+    <p>📍 Địa chỉ: 557 Hà Lầm, Quảng ninh</p>
+    <p>📧 Email: phucnguyen.cuoihoi@gmail.com</p>
+    <a href="tel:0987654321" class="mt-6 inline-block bg-white text-pink-600 px-6 py-3 rounded-xl text-lg font-semibold transition hover:bg-gray-100">Gọi ngay</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 text-center py-6">
+    <p>© 2025 Cưới hỏi Phúc Nguyên - Hạnh phúc trọn vẹn</p>
+  </footer>
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+
+</body>
+</html>
 # wedcuoihoi
 thử nghiệm 
